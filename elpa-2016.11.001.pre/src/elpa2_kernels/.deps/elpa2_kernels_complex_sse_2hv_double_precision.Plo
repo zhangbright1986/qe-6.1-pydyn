@@ -1,0 +1,68 @@
+src/elpa2_kernels/elpa2_kernels_complex_sse_2hv_double_precision.lo: \
+ src/elpa2_kernels/elpa2_kernels_complex_sse_2hv_double_precision.c \
+ ./config-f90.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/complex.h \
+ /usr/include/complex.h /usr/include/features.h /usr/include/stdc-predef.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/cmathcalls.h /usr/include/bits/cmathcalls.h \
+ /usr/include/bits/cmathcalls.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/x86intrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/immintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/wmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/nmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/smmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/tmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/pmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/xmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/mmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/stddef.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/zmmintrin.h
+
+./config-f90.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/complex.h:
+
+/usr/include/complex.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/cmathcalls.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/x86intrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/immintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/wmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/nmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/smmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/tmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/pmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/xmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/mmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/stddef.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/zmmintrin.h:

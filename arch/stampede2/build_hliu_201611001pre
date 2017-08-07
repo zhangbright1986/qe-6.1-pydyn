@@ -1,0 +1,29 @@
+#!/bin/bash
+
+FPFLAGS="-fp-model precise"
+CONFOPTS="--enable-openmp"
+MKLRTL="intel_thread"
+TARGET="-xMIC-AVX512"
+
+export FLAGS="-O2 ${TARGET} -I${MKLROOT}/include"
+export LDFLAGS="-L${MKLROOT}/lib/intel64"
+export CFLAGS="${FLAGS} ${FPFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export FCFLAGS="${FLAGS} -I${MKLROOT}/include/intel64/lp64 -threads"
+export LIBS="-lmkl_intel_lp64 -lmkl_core -lmkl_${MKLRTL} -Wl,--as-needed -liomp5 -Wl,--no-as-needed"
+export SCALAPACK_LDFLAGS="-lmkl_scalapack_lp64 -lmkl_blacs_intelmpi_lp64"
+
+export AR="xiar"
+export FC="mpiifort"
+export CC="mpiicc"
+export CXX="mpiicpc"
+
+rm -rf elpa-2016.11.001.pre
+tar zxvf elpa-2016.11.001.pre.tar.gz
+cd elpa-2016.11.001.pre
+
+./configure --host=x86_64-unknown-linux-gnu --prefix=$PWD/ELPA_201611001pre --enable-openmp
+make clean
+make
+make install
+

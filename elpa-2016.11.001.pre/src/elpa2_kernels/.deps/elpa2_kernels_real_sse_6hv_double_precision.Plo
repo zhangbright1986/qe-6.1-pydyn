@@ -1,0 +1,42 @@
+src/elpa2_kernels/elpa2_kernels_real_sse_6hv_double_precision.lo: \
+ src/elpa2_kernels/elpa2_kernels_real_sse_6hv_double_precision.c \
+ ./config-f90.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/x86intrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/immintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/wmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/nmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/smmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/tmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/pmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/xmmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/mmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/stddef.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h \
+ /opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/zmmintrin.h
+
+./config-f90.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/x86intrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/immintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/wmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/nmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/smmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/tmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/pmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/emmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/xmmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/mmintrin.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/stddef.h:
+
+/opt/intel/compilers_and_libraries_2017.4.196/linux/compiler/include/icc/zmmintrin.h:

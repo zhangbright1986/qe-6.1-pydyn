@@ -1,0 +1,12 @@
+prefix=/home1/03672/tg829713/vojgroup/code/qe-6.1/elpa-2016.11.001.pre/ELPA_201611001pre
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: elpa_openmp
+Description: ELPA is a Fortran-based high-performance computational library for the (massively) parallel solution of symmetric or Hermitian, standard or generalized eigenvalue problems.
+Version: 2016.11.001.pre
+URL: 
+Libs: -L${libdir} -lelpa_openmp -lmkl_intel_lp64 -lmkl_core -lmkl_intel_thread -Wl,--as-needed -liomp5 -Wl,--no-as-needed -fopenmp
+Cflags: -I${includedir}/elpa_openmp-2016.11.001.pre -fopenmp
+fcflags= -I${includedir}/elpa_openmp-2016.11.001.pre/modules -fopenmp

@@ -1,0 +1,51 @@
+Changelog for pre-release ELPA 2016.11.001.pre
+
+This pre-release contains an experimental API which will most likely
+change in the next stable release
+
+- also suport of single-precision (real and complex case) eigenvalule problems
+- GPU support in ELPA 1stage and 2stage (real and complex case)
+- change of API (w.r.t. ELPA 2016.05.004) to support runtime-choice of GPU usage
+
+Changelog for release ELPA 2016.05.004
+
+- fix a problem with the private state of module precision
+- distribute test_project with dist tarball
+- generic driver routine for ELPA 1stage and 2stage
+- test case for elpa_mult_at_b_real
+- test case for elpa_mult_ah_b_complex
+- test case for elpa_cholesky_real
+- test case for elpa_cholesky_complex
+- test case for elpa_invert_trm_real
+- test case for elpa_invert_trm_complex
+- fix building of static library
+- better choice of AVX, AVX2, AVX512 kernels
+- make assumed size Fortran arrays default
+
+Changelog for release ELPA 2016.05.003
+
+- fix a problem with the build of SSE kernels
+- make some (internal) functions public, such that they
+  can be used outside of ELPA
+- add documentation and interfaces for new public functions
+- shorten file namses and directory names for test programs
+  in under to by pass "make agrument list too long" error
+
+Changelog for release ELPA 2016.05.002
+
+- fix problem with generated *.sh- check scripts
+- name library differently if build without MPI support
+- install only public modules
+
+
+Changelog for release ELPA 2016.05.001
+
+- support building without MPI for one node usage
+- doxygen and man pages documentation for ELPA
+- cleanup of documentation
+- introduction of SSE gcc intrinsic kernels
+- Remove errors due to unaligned memory
+- removal of Fortran "contains functions"
+- Fortran interfaces for assembly and C kernels
+
+
